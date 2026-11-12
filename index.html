@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chatter is a welcoming home for readers and writers to share ideas, publish stories and connect with like-minded people.">
+  <title>Chatter — A Haven for Text-Based Content</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home">CHATTER</a>
+      <input class="menu-check" type="checkbox" id="menu-check" aria-label="Toggle navigation menu">
+      <label class="menu-toggle" for="menu-check" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About us</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Blogs</a>
+      </div>
+      <div class="nav-actions">
+        <a class="button button-outline" href="#login">Log in</a>
+        <a class="button button-primary" href="#signup">Sign up</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Welcome to Chatter">
+      <img class="hero-image" src="images/image1.jpg" alt="A writer working on a laptop and taking notes">
+      <div class="hero-shade"></div>
+      <div class="hero-content container">
+        <p class="eyebrow">A community for curious minds</p>
+        <h1>Welcome to Chatter: A Haven for Text-Based Content</h1>
+        <p>Unleash the Power of Words, Connect with Like-minded Readers and Writers</p>
+        <a class="button button-primary" href="#signup">Get started</a>
+      </div>
+    </section>
+
+    <section class="about section container" id="about">
+      <div class="about-copy">
+        <p class="eyebrow blue">Our story</p>
+        <h2>About Chatter</h2>
+        <p>Chatter is a multi-functional platform where authors and readers can have access to their own content. It aims to be a traditional bookworm's heaven and a blog to get access to more text-based content.</p>
+        <p>Our vision is to foster an inclusive and vibrant community where diversity is celebrated. We encourage open-mindedness and respect for all individuals, regardless of their backgrounds or beliefs. By promoting dialogue and understanding, we strive to create a space where every voice matters.</p>
+      </div>
+      <div class="about-photo">
+        <img src="images/image2.jpg" alt="Readers sharing ideas in a welcoming library">
+      </div>
+    </section>
+
+    <section class="benefits section" id="blogs">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow blue">Discover the difference</p>
+          <h2>Why you should join Chatter</h2>
+          <p>Our goal is to make writers and readers see our platform as their next haven for blogging, ensuring ease in interactions, connecting with like-minded peers, accessing favourite content based on interests and sharing great ideas with people.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 3v18h18M7 14l4-4 3 3 6-7"/><path d="M15 6h5v5"/></svg>
+            </div>
+            <h3>Analytics</h3>
+            <p>Analytics to track the number of views, likes and comments, and also analyse the performance of your articles over a period of time.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Social interactions</h3>
+            <p>Users on the platform can interact with posts they like, comment and engage in discussions.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 7h8M8 11h8M8 15h5"/></svg>
+            </div>
+            <h3>Content creation</h3>
+            <p>Write nice and appealing content with our in-built markdown, a rich text editor designed to make sharing your ideas simple.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial section container">
+      <div class="testimonial-photo">
+        <img src="images/image3.jpg" alt="Chatter community member">
+      </div>
+      <div class="testimonial-copy">
+        <p class="quote-mark" aria-hidden="true">“</p>
+        <blockquote>Chatter has become an integral part of my online experience. As a user of this incredible blogging platform, I have discovered a vibrant community of individuals who are passionate about sharing their ideas and engaging in thoughtful discussions.</blockquote>
+        <p class="person"><strong>Oluwatoyosi Adetutu Isa</strong><span>Software developer at Apple</span></p>
+        <a class="button button-primary" href="#signup">Join chatter</a>
+      </div>
+    </section>
+
+    <section class="community section container" id="signup">
+      <div class="community-people" aria-label="Members of the Chatter community">
+        <img class="person-one" src="images/image5.jpg" alt="Chatter community member">
+        <img class="person-two" src="images/image4.jpg" alt="Chatter community member">
+        <img class="person-three" src="images/image6.jpg" alt="Chatter community member">
+      </div>
+      <div class="community-copy">
+        <p class="eyebrow blue">Find your people</p>
+        <h2>Write, read and connect with great minds on Chatter</h2>
+        <p>Share your great ideas, and also read write-ups based on your interests. Connect with people of the same interests and goals.</p>
+        <a class="button button-primary" href="#contact">Get started</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-inner container">
+      <a class="brand" href="#home">CHATTER</a>
+      <div class="footer-column">
+        <h3>Explore</h3>
+        <a href="#blogs">Community</a>
+        <a href="#blogs">Trending blogs</a>
+        <a href="#blogs">Chatter for teams</a>
+      </div>
+      <div class="footer-column">
+        <h3>Support</h3>
+        <a href="#contact">Support docs</a>
+        <a href="#contact">Join Slack</a>
+        <a href="mailto:layoadetutu@gmail.com">Contact</a>
+      </div>
+      <div class="footer-column">
+        <h3>Official blog</h3>
+        <a href="#blogs">Official blog</a>
+        <a href="#blogs">Engineering blog</a>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <span>© 2026 Chatter. All rights reserved.</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
